@@ -2,12 +2,39 @@
   list-style: none;
 }
 
-.header-link { 
-  font-family: 'Heebo';
+.header-link {
+  font-family: "Heebo";
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 29px;
   color: #000000;
   text-decoration: none;
+}
+
+.intro-title {
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 60px;
+  color: #21243d;
+}
+
+.intro-description {
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #21243d;
+}
+
+.intro-link {
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 29px;
+  color: #ff6464;
 }
