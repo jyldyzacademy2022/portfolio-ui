@@ -1,10 +1,32 @@
-.header-menu {
+@font-face {
+  font-family: Heebo ;
+  src: url(../fonts/Heebo-Medium.woff) format(woff),
+  url(../fonts/Heebo-Medium.woff2) format(woff2);
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Heebo ;
+  src: url(../fonts/Heebo-Regular.woff2) format(woff2),
+  url(../fonts/Heebo-Regular.woff) format(woff);
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Heebo ;
+  src: url(../fonts/Heebo-Bold.woff) format(woff),
+  url(../fonts/Heebo-Bold.woff2) format(woff2);
+  font-weight: 700;
+  font-style: normal;
+}
+
+.header-menu, .works-list, .socials-list, .blog-list {
   list-style: none;
 }
 
 .header-link { 
-  font-family: 'Heebo';
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 29px;
@@ -12,6 +34,82 @@
   text-decoration: none;
 }
 
-.blog-list {
-  list-style: none; 
+body {
+  font-family: Heebo;
+  font-size: 16;
+  line-height: 24px;
+  color: #21243D;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn {
+  font-weight: 500;
+font-size: 20px;
+line-height: 29px;
+
+color: #FFFFFF;
+}
+
+.section-title {
+  font-weight: 400;
+font-size: 22px;
+line-height: 60px;
+color: #21243D;
+}
+
+.intro-title {
+  font-size: 44px;
+line-height: 60px;
+color: #21243D;
+}
+
+.blog {
+  background: #EDF7FA;  
+}
+
+.blog-position {
+font-size: 26px;
+line-height: 38px;
+color: #21243D;
+}
+
+.blog-date, .blog-theme {
+  font-size: 18px;
+line-height: 26px;
+color: #21243D;
+}
+
+.works-title {
+  font-size: 30px;
+line-height: 44px;
+color: #21243D;
+}
+
+.works-name {
+  font-size: 20px;
+line-height: 29px;
+color: #8695A4;
+}
+
+.works-year {
+  font-weight: 900;
+  font-size: 18px;
+line-height: 60px;
+color: #FFFFFF;
+}
+
+.footer-copyrights {
+font-size: 14px;
+line-height: 21px;
+text-align: center;
+color: #21243D;
 }
